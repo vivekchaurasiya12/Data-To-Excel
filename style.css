@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+   
+}
+.root{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+.header h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.main-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #153677 ,#4e085f);
+    border: 1px solid black;
+}
+
+.main-container .nav-bar{
+    background-color: #ade8f4;
+    width: 20%;
+    height: 100vh;
+}
+.nav-bar ul{
+    margin: 60px 40px;
+    list-style-type: none;
+}
+.nav-bar ul li{
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+}
+.nav-bar ul li i{
+    margin-right: 7px;
+}
+.container{
+    width: 80%; 
+    height: 100vh;
+    background-color: #ced4da;
+}
+
+.container .input-box{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 25px;
+}
+.container .input-box input{
+    font-size: 16px;
+    background-color: #adb5bd;
+    display: flex;
+    border: 1px solid black;
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px 10px; 
+}
+.container .input-box .search{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: #adb5bd;
+  cursor: pointer;
+  border-radius: 4px; 
+  width: 120px; 
+  height: 40px; 
+}
+.excel{
+    width: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+}
+.excel i{
+    font-size: 20px;
+    color: white;
+}
+.list{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.list table {
+    width: 860px;
+    border-collapse: collapse;
+    border: 1px solid black; 
+    box-shadow: 8px 8px 8px rgba(59, 58, 58, 0.553);
+}
+.col1{
+    width: 52%;
+}
+.col2{
+    width: 12%;
+}
+.list table th, .list table td {
+    border: 1px solid black; 
+    padding: 8px;
+    text-align: left; 
+    white-space: wrap;
+}
+.pagination{
+    display: flex;
+    justify-content: end;
+    margin-right: 65px;
+}
+.pagination select{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.pagination button{
+    margin: 5px;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.icons{
+    cursor: pointer;  
+}
+.icons i{
+    margin-left: 5px;
+}
+.icons i:hover{
+    transform: translateY(2px);
+}
